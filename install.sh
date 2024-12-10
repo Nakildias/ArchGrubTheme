@@ -52,8 +52,8 @@ function install_theme() {
         echo_info "mkdir -p \"${THEME_DIR}/Arch\""
         mkdir -p "${THEME_DIR}/Arch"
 
-        echo_info "cp -a ./themes/\"Arch\"/* \"${THEME_DIR}/Arch\""
-        cp -a ./themes/"Arch"/* "${THEME_DIR}/Arch"
+        echo_info "cp -a ./themes/Arch/* \"${THEME_DIR}/Arch\""
+        cp -a ./themes/Arch/* "${THEME_DIR}/Arch"
     fi
 }
 
