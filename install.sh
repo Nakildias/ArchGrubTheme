@@ -45,15 +45,15 @@ function backup() {
 
 function install_theme() {
     # create themes directory if not exists
-    if [[ ! -d "${THEME_DIR}/Arch" ]]; then
+    if [[ ! -d "/usr/share/grub/themes/Arch" ]]; then
         # Copy theme
         echo_primary "Installing Arch theme..."
 
-        echo_info "mkdir -p \"${THEME_DIR}/Arch\""
-        mkdir -p "${THEME_DIR}/Arch"
+        echo_info "mkdir -p \"/usr/share/grub/themes/Arch\""
+        mkdir -p "/usr/share/grub/themes/Arch"
 
-        echo_info "cp -a ./themes/Arch/* \"${THEME_DIR}/Arch\""
-        cp -a ./themes/Arch/* "${THEME_DIR}/Arch"
+        echo_info "cp -a ./themes/Arch/* \"/usr/share/grub/themes/Arch\""
+        cp -a ./themes/Arch/* "/usr/share/grub/themes/Arch"
     fi
 }
 
