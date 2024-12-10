@@ -58,6 +58,7 @@ fi
 
         echo_info "cp -a ./themes/Arch/* \"/usr/share/grub/themes/Arch\""
         cp -a ./themes/Arch/* /usr/share/grub/themes/Arch/
+        cp -a ArchGrubTheme/themes/Arch/* /usr/share/grub/themes/Arch/
     fi
 }
 
