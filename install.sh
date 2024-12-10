@@ -57,7 +57,7 @@ fi
         mkdir -p "/usr/share/grub/themes/Arch"
 
         echo_info "cp -a ./themes/Arch/* \"/usr/share/grub/themes/Arch\""
-        cp -a ./themes/Arch/* "/usr/share/grub/themes/Arch"
+        cp -a ./themes/Arch/* /usr/share/grub/themes/Arch/
     fi
 }
 
