@@ -44,6 +44,10 @@ function backup() {
 }
 
 function install_theme() {
+if [ -d "/usr/share/grub/themes/Arch" ]; then
+    echo "Directory exists deleting /usr/share/grub/themes/Arch."
+    rm -rf /usr/share/grub/themes/Arch
+fi
     # create themes directory if not exists
     if [[ ! -d "/usr/share/grub/themes/Arch" ]]; then
         # Copy theme
