@@ -109,7 +109,7 @@ function update_grub() {
 
 function main() {
     check_root
-    select_theme
+#    select_theme
 
     install_theme
 
